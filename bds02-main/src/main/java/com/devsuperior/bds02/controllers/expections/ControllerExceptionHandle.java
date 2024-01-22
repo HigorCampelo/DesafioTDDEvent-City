@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.devsuperior.bds02.services.exceptions.DatabaseException;
 import com.devsuperior.bds02.services.exceptions.ResourceNotFoundException;
-import com.devsuperior.dscatalog.resources.exceptions.StandardError;
+
 
 @ControllerAdvice
 public class ControllerExceptionHandle {

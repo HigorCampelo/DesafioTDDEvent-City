@@ -35,8 +35,7 @@ public class EventService {
 	@Transactional
 	public EventDTO update(EventDTO dto, Long id) {
 		try {
-		    @SuppressWarnings("deprecation")
-			Event event = eventRepository.getOne(id);
+		    Event event = eventRepository.getOne(id);
 		    // Event entity = new Event();
 		    event.setName(dto.getName());
 		    event.setDate(dto.getDate());
